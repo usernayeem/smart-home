@@ -1,0 +1,510 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    font-size: 62.5%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #AA096C;
+    width: 100%;
+    overflow-x: hidden;
+    background-image: url(../images/BgDesign.png);
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    background-position: center;
+}
+
+/* NavBar */
+.navbar-expand-lg .navbar-brand img {
+    height: 5rem !important;
+}
+
+.navbar-expand-lg .navbar-nav {
+    width: 100%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item .nav-link {
+    margin: 10px;
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat";
+    white-space: nowrap;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item input {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 25px;
+    outline: none;
+    width: 290px;
+    padding: 8px;
+    color: #ffffff;
+}
+
+.nav-item input::placeholder {
+    color: white;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: right;
+    transform: translateY(15%);
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-item .socialIcon {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item .socialIcon img {
+    list-style: none;
+    margin-left: 10px;
+}
+
+.navbar-expand-lg .navbar-toggler {
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+.navbar-expand-lg .navbar-toggler-icon {
+    font-size: 16px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.header-scrolled {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #AA096C;
+    -webkit-box-shadow: 0 5px 10px 0 rgb(75, 75, 75);
+    box-shadow: 0 5px 10px 0 rgb(75, 75, 75);
+    transition: all 0.2s;
+}
+
+/* Hero section */
+#hero .row {
+    min-height: 100vh;
+    padding-top: 8rem;
+}
+
+#hero h1 {
+    font-size: 8rem;
+    letter-spacing: 0.5rem;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Audiowide";
+}
+
+#hero h2 {
+    font-size: 4.6rem;
+    letter-spacing: 0.3rem;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat";
+    white-space: nowrap;
+}
+
+#hero p {
+    color: #ffffff;
+    margin-top: 3rem;
+    font-size: 2.5rem;
+}
+
+#hero button {
+    background: transparent;
+    border: 0.1rem solid white;
+    border-radius: 3rem;
+    outline: none;
+    width: 29rem;
+    padding: 0.8rem;
+    color: #ffffff;
+    height: 5.4rem;
+    margin-top: 3rem;
+    font-size: 2.8rem;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+/* About section */
+#about {
+    background-color: rgba(243, 236, 248, 0.2);
+}
+
+#about .row {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#about h2 {
+    font-size: 5.4rem;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Audiowide";
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+#about h3 {
+    margin: 0;
+    font-size: 3.7rem;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: left;
+    margin-bottom: 4rem;
+}
+
+#about p {
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: left;
+}
+
+/* Access control */
+#accessControl {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#accessControl .card {
+    background-color: transparent;
+    border: none;
+}
+
+#accessControl .row {
+    border-radius: 3.6rem;
+    filter: drop-shadow(0px 1.5rem 2.5rem rgba(0, 0, 0, 0.2));
+    background-color: #AA096C;
+    border: 0.3rem solid #cc91c4;
+}
+
+#accessControl .card img {
+    height: 6.5rem;
+    width: 15.8rem;
+    margin-top: 10rem;
+}
+
+#accessControl .card-body h3 {
+    font-size: 3.3rem;
+    letter-spacing: 0.3rem;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 6rem;
+}
+
+#accessControl .card-body p {
+    font-size: 2.1rem;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+/* Security section */
+#security {
+    background-color: rgba(248, 236, 245, 0.2);
+}
+
+#security .row {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#security .card {
+    background-color: transparent;
+    border-radius: 1.5rem;
+    filter: drop-shadow(.0rem 1.5rem 2.5rem rgba(0, 0, 0, 0.2));
+    background-color: #651097;
+    border: 3px solid #cc91c4;
+}
+
+#security h2 {
+    font-size: 5.8rem;
+    letter-spacing: 0.6rem;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 7.8rem;
+}
+
+#security .card {
+    margin-top: 7.5rem;
+}
+
+#security .card img {
+    width: 80%;
+    height: 28.5rem;
+    margin-top: 5rem;
+}
+
+#security .card h3 {
+    font-size: 3.5rem;
+    letter-spacing: 0.2rem;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Audiowide";
+    text-align: center;
+}
+
+#security .card p {
+    font-size: 1.6rem;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin-top: 0.7rem;
+}
+
+#security .card button {
+    background: transparent;
+    border: 0.1rem solid white;
+    border-radius: 3rem;
+    outline: none;
+    width: 29rem;
+    padding: 0.8rem;
+    color: #ffffff;
+    height: 4.4rem;
+    margin-top: 3rem;
+    font-size: 1.6rem;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    width: 60%;
+    margin-bottom: 4rem;
+}
+
+#security p {
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 12rem;
+}
+
+/* Smart home section */
+#smartHome .row {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#smartHome h3 {
+    font-size: 8.8rem;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Audiowide";
+    text-align: right;
+}
+
+#smartHome p {
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin-top: 8rem;
+}
+
+#smartHome button {
+    background: transparent;
+    border: 0.1rem solid white;
+    border-radius: 3rem;
+    outline: none;
+    width: 29rem;
+    padding: 0.8rem;
+    color: #ffffff;
+    height: 4.4rem;
+    margin-top: 4rem;
+    font-size: 1.6rem;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    width: 60%;
+}
+
+/* Monitor home section */
+#monitorHome {
+    background-color: rgba(248, 236, 245, 0.2);
+}
+
+#monitorHome .row {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#monitorHome h2 {
+    font-size: 5.8rem;
+    letter-spacing: .6rem;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Audiowide";
+}
+
+#monitorHome ul li:first-child {
+    margin-top: 10rem;
+}
+
+#monitorHome ul li {
+    margin-top: 4rem;
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+#monitorHome h3 {
+    font-size: 3.8rem;
+    letter-spacing: .8rem;
+    color: #ffffff;
+    font-weight: 700;
+    font-style: italic;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 10rem;
+}
+
+#monitorHome p {
+    font-size: 2.5rem;
+    letter-spacing: .3rem;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 7rem;
+}
+
+/* about us section */
+#aboutUs .row {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#aboutUs .imgBox img {
+    height: 85rem;
+}
+
+#aboutUs h2 {
+    font-size: 5.8rem;
+    letter-spacing: .6rem;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Montserrat";
+    margin-bottom: 11rem;
+
+}
+
+#aboutUs p {
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin-bottom: 8.5rem;
+}
+
+#aboutUs span {
+    display: block;
+    font-size: 2.3rem;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin-bottom: 2.5rem;
+}
+
+#aboutUs span:last-child {
+    margin-bottom: 0rem;
+}
+
+/* Features section*/
+#features .row {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    filter: drop-shadow(.0rem 1.5rem 2.5rem rgba(0, 0, 0, 0.2));
+    background-color: rgba(248, 236, 245, 0.2);
+}
+
+#features h2 {
+    font-size: 4.2rem;
+    letter-spacing: .4rem;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+#features img {
+    margin-top: 6.5rem;
+}
+
+/* footer */
+footer .row {
+    background-color: #a12fb1;
+    padding-top: 9.5rem;
+}
+
+footer .about>h2 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Montserrat";
+}
+
+footer h2 {
+    font-size: 2.1rem;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Montserrat";
+}
+
+footer p {
+    font-size: 1.9rem;
+    line-height: 2.9rem;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Montserrat";
+    margin-top: 3.5rem;
+}
+
+footer ul {
+    margin-top: 3.5rem;
+}
+
+footer li {
+    font-size: 1.9rem;
+    line-height: 2.9rem;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+footer .designGap {
+    height: 7.5rem;
+    background-color: #5d117f;
+    border-top: 3px solid #cc91c4;
+    border-bottom: 3px solid #cc91c4;
+    margin: 5rem 0;
+
+}
