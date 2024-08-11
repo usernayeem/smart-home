@@ -6,31 +6,25 @@ SEO friendly responsive smart home website [PSD to HTML].
 
 ## Authors
 
-- [@md5nayeem](https://www.github.com/md5nayeem)
+- [Md Nayeem](https://www.github.com/usernayeem)
 
 
-## Demo
+## Live Preview
 
-https://md5nayeem.github.io/SmartHome/
+https://usernayeem.github.io/smart-home/
 
 
 ## Feedback
 
-If you have any feedback, please reach out to me at https://www.linkedin.com/in/md5nayeem/
+If you have any feedback, please reach out to me at https://www.linkedin.com/in/usernayeem/
 
 
-## Focusing on
+## Focused on
 
 - Image optimization
 - Accessibility
 - Code validation
-- Cross platform
-
-
-## Used Tools and Technologies
-
-**Client:** HTML, CSS, Bootstrap, JS, Font awesome, Google Font and so on
-
+- Cross browser
 
 
 ## License
